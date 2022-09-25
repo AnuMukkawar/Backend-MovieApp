@@ -31,7 +31,7 @@ router.post("/", async (request, response) => {
       res.send(filterMovies)
   })
   
-  router.get("/:id", auth, async (req,res)=>{
+  router.get("/:id", async (req,res)=>{
       const {id}=req.params;
       console.log(id)
       const movies= await getMovieById(id);
