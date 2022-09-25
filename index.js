@@ -14,7 +14,7 @@ console.log(process.env)
 
 const app=express();
 app.use(cors());
-const Port=process.env.Port;
+const PORT=process.env.PORT;
 
 //const MONGO_URL="mongodb://localhost"
 const MONGO_URL=process.env.MONGO_URL;
