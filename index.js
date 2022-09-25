@@ -13,7 +13,7 @@ dotenv.config()
 console.log(process.env)
 
 const app=express();
-app.use(cors())
+app.use(cors());
 const Port=process.env.Port;
 
 //const MONGO_URL="mongodb://localhost"
