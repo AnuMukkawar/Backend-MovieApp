@@ -40,4 +40,4 @@ app.use("/movies",moviesRouter)
 
 app.use("/user",userRouter)
 
-app.listen(Port,()=> console.log("server started on port:",Port))
+app.listen(PORT,()=> console.log("server started on port:",PORT))
